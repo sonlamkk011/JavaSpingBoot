@@ -12,6 +12,7 @@ import spingboot.example.dto.ResponseDTO;
 
 import javax.validation.Valid;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/v1/products")
 @Validated
